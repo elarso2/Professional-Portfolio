@@ -8,10 +8,11 @@ header {
     background-image: ".images/headerbackground.jpg";
 }
 nav {
-    position: absolute;
-    display: block;
-    color:black;
-    flex-wrap: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
 }
 
 h2 {
