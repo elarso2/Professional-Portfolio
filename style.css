@@ -1,0 +1,15 @@
+* {
+    background-color: pink;
+}
+
+header {
+    font-family: fantasy;
+    color:black;
+    background-image: ".images/headerbackground.jpg";
+}
+nav {
+    position: absolute;
+    display: block;
+    color:black;
+    flex-wrap: column;
+}

@@ -1,0 +1,1 @@
+The goal of this homework assignment is to create a website, from scratch, that is a professional portfolio of my work. 
