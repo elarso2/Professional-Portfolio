@@ -13,3 +13,9 @@ nav {
     color:black;
     flex-wrap: column;
 }
+
+h2 {
+    font-size: 64px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
