@@ -20,7 +20,8 @@ nav {
 nav a {
     margin: 0px 15px 0px 15px;
     border: 2px solid aquamarine;
-    border-radius: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
 }
 
 h2 {
