@@ -1,1 +1,1 @@
-The goal of this homework assignment is to create a website, from scratch, that is a professional portfolio of my work. 
+The goal of this homework assignment is to create a website, from scratch, that is a professional portfolio of my work. I am meant to be using my current knowledge of HTML and CSS skills to create my web-based application. 
