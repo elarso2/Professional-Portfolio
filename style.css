@@ -2,6 +2,11 @@
     --frame: rgb(201, 163, 163);
 }
 
+//* main {
+    display: flex;
+    flex-wrap: wrap;
+} *//
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -44,7 +49,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section {
+p {
     /*vborder: 5px solid aquamarine;
     border-radius: 10px;
     padding: 10px;*/
@@ -67,4 +72,11 @@ footer {
     max-width: 10%;
     max-height: 10%;
     position: top, right, absolute;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  nav {
+      flex-direction: column,
+  }
 }
