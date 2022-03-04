@@ -4,4 +4,4 @@ The final website needs to have a heading with my name, a navigation bar which b
 
 
 
-You can find my final site by clicking ![Here] (https://elarso2.github.io/Professional-Portfolio/)
+You can find my final site by clicking ![here](https://elarso2.github.io/Professional-Portfolio/).
