@@ -55,6 +55,8 @@ p {
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: flex-end;
+    text-align: left;
+    text-indent: 30px;
 }
 
 section {
@@ -65,6 +67,12 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: var(--frame);
+}
+
+ul {
+    list-style-type: none;
+    flex-direction: row;
+    display: inline;
 }
 
 p .cardB {
@@ -88,7 +96,7 @@ h2:last-child , section:last-child {
     padding-bottom: 30px;
 }
 
-//*
+/*
 img.headshot {
     justify-content: flex-end;
     align-items: flex-start;
@@ -116,7 +124,7 @@ ul {
     nav {
         flex-direction: column;
     }
-} *//
+} */
 
 @media screen and (max-width: 992px) {
     .cardB {
