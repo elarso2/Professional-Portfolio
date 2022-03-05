@@ -2,9 +2,12 @@
     --frame: rgb(201, 163, 163);
 }
 
+/* adding flex wrap style and padding above and below*/
 main {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom:20px;
 } 
 
 * {
@@ -26,6 +29,8 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+/* nav styling and spacing */
 nav {
     padding-top: 0px;
     margin-right: 20px;
@@ -38,17 +43,27 @@ nav a {
     margin: 0px 15px 0px 15px;
 }
 
+/* Creating a button effect for nav links */
+nav a:link, nav a:visited {
+    background-color: rgb(69, 69, 194);
+    color: #fff;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover, nav a:active {
+    background-color: rgb(121, 121, 228);
+}
+
+/* header and text styling and spacing */
 h2 {
     font-size: 64px;
     font-style: oblique;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: flex-start;
     padding-left: 5%;
-}
-
-section {
-    padding-left: 25%;
-    padding-right: 10%;
 }
 
 p {
@@ -60,6 +75,10 @@ p {
 }
 
 section {
+    padding-left: 25%;
+    padding-right: 10%;
+}
+section {
     justify-content: center;
 }
 
@@ -69,6 +88,7 @@ footer {
     background-color: var(--frame);
 }
 
+/* removing bullet points from contact section items */
 ul {
     list-style-type: none;
     flex-direction: row;
@@ -86,14 +106,6 @@ p .cardB {
 .cardB {
     flex: 50%;
     padding: 15px;
-}
-
-h2:first-child , section:first-child {
-    padding-top: 20px;
-}
-
-h2:last-child , section:last-child {
-    padding-bottom: 30px;
 }
 
 /*
