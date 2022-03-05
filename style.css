@@ -95,7 +95,7 @@ ul {
     display: inline;
 }
 
-p .cardB {
+p .project {
     justify-content: center;
 }
 
@@ -103,9 +103,24 @@ p .cardB {
     display: flex;
 }
 
-.cardB {
+.project {
     flex: 50%;
     padding: 15px;
+}
+
+/* adding text blocks on images */
+.project {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    color:#fff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*
