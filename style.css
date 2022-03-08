@@ -35,14 +35,14 @@ section.rowContainer {
 }
 
 aside {
-    background-color: rgb(241, 163, 235);
+    /* background-color: rgb(241, 163, 235); */
     display: flex;
     flex:1 1 10vw;
     border-right: 5px solid black;
 }
 
 article {
-    background-color: rgb(219, 245, 149);
+    /* background-color: rgb(219, 245, 149); */
     display: flex;
     flex:2 1 40vw;
     justify-content: center;
@@ -62,7 +62,6 @@ article {
     max-width: 100%;
     min-width: 100%;
     height: auto;
-    border: 8px solid rgb(228, 192, 198);
     margin-bottom: 10px;
 }
 
@@ -112,7 +111,6 @@ p {
     text-indent: 30px;
     margin-right: 5px;
     margin-left: 5px;
-    /* overflow-wrap: break-word; */
 }
 
 ul {
@@ -126,12 +124,6 @@ ul.contact > li {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-/* #work {
-    flex: 2 1 40vw;
-} */
-
-
 
 h3 {
     /* position: absolute; */
