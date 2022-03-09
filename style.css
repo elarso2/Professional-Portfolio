@@ -26,6 +26,21 @@ header {
     display: flex;
 }
 
+#subheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: rgb(135, 193, 240);
+}
+
+.headshot {
+    max-width: 15%;
+    min-width: 15%;
+    justify-content: flex-start;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
 section.rowContainer {
     flex-direction: row;
     display: flex;
@@ -35,19 +50,16 @@ section.rowContainer {
 }
 
 aside {
-    /* background-color: rgb(241, 163, 235); */
     display: flex;
     flex:1 1 10vw;
     border-right: 5px solid black;
 }
 
 article {
-    /* background-color: rgb(219, 245, 149); */
     display: flex;
     flex:2 1 40vw;
     justify-content: center;
     align-items: center;
-    /* overflow-wrap: break-word; */
 }
 
 .nestedCol {
