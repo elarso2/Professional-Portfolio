@@ -157,8 +157,10 @@ ul.contact > li {
 }
 
 h3 {
-    /* position: absolute; */
-    /* z-index: 100; */
+    position: relative;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -167,3 +169,4 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
