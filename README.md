@@ -1,4 +1,4 @@
-The goal of this homework assignment is to create a website, from scratch, that is a professional portfolio of my work. I am meant to be using my current knowledge of HTML and CSS skills to create my web-based application. 
+The goal of this homework assignment was to create a website, from scratch, that is a professional portfolio of my work. I was meant to use  my current knowledge of HTML and CSS skills to create my web-based application. 
 
 The final website requirements, which have been pulled from my assignment page, can be found below:
 
@@ -15,6 +15,10 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+My final site should be deployed at a live URL, and include live URLs for some projects I have already completed. It should also roughly resemble the mock-up site that we were provided with in our assignment README, and can be viewed in the image below. 
+
+![portfolioDemo](./assets/homework-02.png)
 
 
 
