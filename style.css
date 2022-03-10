@@ -42,16 +42,17 @@ ul:hover{
     background-color: rgb(152, 106, 192);
 } */
 
+/* flex properties and background image for subheader */
 #subheader {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    /* background-color: rgb(135, 193, 240); */
     background-image: url(./assets/fern.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/*image styling*/
 .headshot {
     max-width: 15%;
     min-width: 15%;
@@ -68,12 +69,14 @@ section.rowContainer {
     padding: 5px;
 }
 
+/* section heading position and flex styling */
 aside {
     display: flex;
     flex:1 1 10vw;
     border-right: 5px solid black;
 }
 
+/*section content position and flex styling */
 article {
     display: flex;
     flex:2 1 40vw;
@@ -81,6 +84,7 @@ article {
     align-items: center;
 }
 
+/* styling for container that holds all my project images */
 .nestedCol {
     display: flex;
     flex: 2 1 40vw;
@@ -89,23 +93,26 @@ article {
     align-content: flex-end;
 }
 
+/*styling the primary image, which is larger than subsequent images */
 .firstImg {
     max-width: 100%;
     min-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
-
+/* styling container holding only the subsequent images */
 .nestedCol > div {
     max-width: 50%;
     min-width: 50%;
     position: relative;
 }
 
+/* styling the container holding the first and largest image */
 .nestedCol > section {
     position: relative;
 }
 
+/* styling specifically the subsequent images */
 .otherImgs {
     max-width: 30%;
     min-width: 30%;
@@ -117,6 +124,7 @@ article {
     /* flex: 2 1 40vw; */
 }
 
+/* styling first image */
 .workImage {
     max-width: 100%;
     min-width: 100%;
@@ -127,6 +135,7 @@ article {
     flex: 1 1 10vw;
 }
 
+/* lots of font styling and positioning for text throughout the site */
 h2 {
     font-size: 64px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
