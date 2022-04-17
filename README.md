@@ -20,7 +20,7 @@ My final site should be deployed at a live URL, and include live URLs for some p
 
 ![portfolioDemo](./assets/homework-02.png)
 
-![myPortfolioPage](./assets/portfolio.png)
+![myPortfolioPage](./assets/updatedScreenshot.png)
 
 You can find my final site by clicking [here](https://elarso2.github.io/Professional-Portfolio/).
 
