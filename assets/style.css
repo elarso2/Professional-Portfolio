@@ -1,37 +1,39 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    min-height: 100vh;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  margin: 0;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    flex: 1;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+  margin: 0;
 }
 
 header {
-    /* background-color: rgb(228, 192, 198); */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:black;
-    justify-content: space-between;
-    display: flex;
-    background-image: url(./assets/mountain.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* background-color: rgb(228, 192, 198); */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  justify-content: space-between;
+  display: flex;
+  background-image: url(./mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 10%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 10%;
 }
 
 /* ul {
@@ -44,186 +46,189 @@ ul:hover{
 
 /* flex properties and background image for subheader */
 #subheader {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    background-image: url(./assets/fern.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  background-image: url(./fern.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*image styling*/
 .headshot {
-    max-width: 15%;
-    min-width: 15%;
-    justify-content: flex-start;
-    border-radius: 50%;
-    margin-left: 1%;
+  max-width: 15%;
+  min-width: 15%;
+  justify-content: flex-start;
+  border-radius: 50%;
+  margin-left: 1%;
 }
 
 section.rowContainer {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    flex:1;
-    padding: 5px;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 5px;
 }
 
 /* section heading position and flex styling */
 aside {
-    display: flex;
-    flex:1 1 10vw;
-    border-right: 5px solid black;
+  display: flex;
+  flex: 1 1 10vw;
+  border-right: 5px solid black;
 }
 
 /*section content position and flex styling */
 article {
-    display: flex;
-    flex:2 1 40vw;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 2 1 40vw;
+  justify-content: center;
+  align-items: center;
 }
 
 /* styling for container that holds all my project images */
 .nestedCol {
-    display: flex;
-    flex: 2 1 40vw;
-    flex-wrap: wrap;
-    justify-items: stretch;
-    align-content: flex-end;
+  display: flex;
+  flex: 2 1 40vw;
+  flex-wrap: wrap;
+  justify-items: stretch;
+  align-content: flex-end;
 }
 
 /*styling the primary image container, which is larger than subsequent images */
 .firstImg {
-    max-width: 100%;
-    min-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 /* styling container holding only the subsequent images */
 .nestedCol > div {
-    max-width: 50%;
-    min-width: 50%;
-    position: relative;
+  max-width: 50%;
+  min-width: 50%;
+  position: relative;
 }
 
 /* styling the container holding the first and largest image */
 .nestedCol > section {
-    position: relative;
+  position: relative;
 }
 
 /* styling specifically the subsequent images */
 .otherImgs {
-    max-width: 30%;
-    min-width: 30%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-    /* flex: 2 1 40vw; */
+  max-width: 30%;
+  min-width: 30%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  /* flex: 2 1 40vw; */
 }
 
 /* styling first image */
 .workImage {
-    max-width: 100%;
-    min-width: 100%;
-    height: auto;
-    border: 5px solid rgb(228, 192, 198);
-    justify-content: space-between;
-    object-fit: cover;
-    flex: 1 1 10vw;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  border: 5px solid rgb(228, 192, 198);
+  justify-content: space-between;
+  object-fit: cover;
+  flex: 1 1 10vw;
 }
 
 /* lots of font styling and positioning for text throughout the site */
 h2 {
-    font-size: 64px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: oblique;
-    align-items: flex-start;
-    justify-content: flex-start;
+  font-size: 64px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
-    text-align: left;
-    text-indent: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-    overflow: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  text-indent: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  overflow: auto;
 }
 
 ul {
-    list-style-type: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 24px;
+  list-style-type: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
 }
 
 ul.contact > li {
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /* text styling and positioning over the image */
 h3 {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 5px solid rgb(228, 192, 198);
-    background-color: rgb(228, 192, 198);
-    padding: 1%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 5px solid rgb(228, 192, 198);
+  background-color: rgb(228, 192, 198);
+  padding: 1%;
 }
 
 @media screen and (max-width: 992px) {
-    .workImage {
-        max-width: 50%;
-        flex-direction: column;
-    }
-    .otherImgs {
-        max-width: 50%;
-        flex-direction: column;
-    }
-    section.rowContainer {
-        flex-direction: column;
-    }
-    .nestedCol {
-        flex-direction: column;
-    }
-    header {
-        flex-direction: column;
-        justify-content: center;
-    }
+  .workImage {
+    max-width: 50%;
+    flex-direction: column;
+  }
+  .otherImgs {
+    max-width: 50%;
+    flex-direction: column;
+  }
+  section.rowContainer {
+    flex-direction: column;
+  }
+  .nestedCol {
+    flex-direction: column;
+  }
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .workImage {
-        max-width: 100%;
-        flex-direction: column;
-    }
-    .otherImgs {
-        max-width: 50%;
-        flex-direction: column;
-    }
-    article.nestedCol {
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-    }
-    section.firstImg {
-        width: 100%;
-    }
-    header {
-        flex-direction: column;
-        justify-content: center;
-    }
+  .workImage {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .otherImgs {
+    max-width: 50%;
+    flex-direction: column;
+  }
+  article.nestedCol {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  section.firstImg {
+    width: 100%;
+  }
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 footer {
-    background-color: rgb(228, 192, 198);
-    text-align: center;
-    padding: 15px;
+  background-color: rgb(228, 192, 198);
+  text-align: center;
+  padding: 15px;
 }
-
