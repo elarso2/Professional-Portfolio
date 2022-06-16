@@ -1,7 +1,14 @@
-The goal of this homework assignment was to create a website, from scratch, that is a professional portfolio of my work. I was meant to use my current knowledge of HTML and CSS skills to create my web-based application.
+# Professional Portfolio
+
+## Description
+
+The goal of this homework assignment was to create a website, from scratch, that is a professional portfolio of my work. Using my knowledge of HTML and CSS, I have built this site to demonstrate my skills, projects I've completed, and provide my resume and contact information for possible future employers.
+
+## Assignment Requirements
 
 The final website requirements, which have been pulled from my assignment page, can be found below:
 
+```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -15,14 +22,19 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+```
 
-My final site should be deployed at a live URL, and include live URLs for some projects I have already completed. It should also roughly resemble the mock-up site that we were provided with in our assignment README, and can be viewed in the image below. Just below that one, you will find a screenshot of my personal professional portfolio webpage.
+## Deployment and Demonstration
+
+Below you will find a screenshot of the mock-up we were provided by our instructors, and then a screenshot of my personal site, followed by a link to the deployed page.
 
 ![portfolioDemo](./assets/homework-02.png)
 
 ![myPortfolioPage](./assets/updatedScreenshot.png)
 
 You can find my final site by clicking [here](https://elarso2.github.io/Professional-Portfolio/).
+
+## License
 
 Copyright (c) 2022 Elizabeth Larson
 
